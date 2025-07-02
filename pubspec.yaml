@@ -1,0 +1,33 @@
+name: smartwakeplus
+description: Eine smarte Wecker-App mit Radiostream, Wecksatz und TTS
+version: 13.4.3+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: any
+  shared_preferences: ^2.2.2
+  flutter_tts: ^4.0.2
+  audioplayers: ^5.2.1
+  speech_to_text: ^7.1.0
+  permission_handler: ^12.0.0+1
+  flutter_web_auth_2: ^4.1.0
+  http: ^1.4.0
+   
+
+  # Hier können später Radioplayer, TTS usw. ergänzt werden
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/background.jpg
+    - assets/images/logo.png
+    - assets/sounds/smarter_wecker.mp3
+    
